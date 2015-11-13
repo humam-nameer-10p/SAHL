@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TTTAttributedLabel.h"
 
-@interface LoginViewController : UIViewController
+@interface LoginViewController : UIViewController<TTTAttributedLabelDelegate>
+
+@property (weak, nonatomic) IBOutlet TTTAttributedLabel *termsOfUseLabel;
 
 @end

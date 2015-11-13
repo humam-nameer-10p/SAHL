@@ -16,6 +16,13 @@
 		FA1D3A461BF4D85800E4A480 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1D3A441BF4D85800E4A480 /* LoginViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		FA1D3A471BF4DA2600E4A480 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1D3A081BF4D56100E4A480 /* main.m */; };
 		FA1D3A491BF4DC4800E4A480 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1D3A481BF4DC4800E4A480 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		FAED17111BF5ACC600CDA4A4 /* TopOrangeBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAED170C1BF5ACC600CDA4A4 /* TopOrangeBar@2x.png */; settings = {ASSET_TAGS = (); }; };
+		FAED17121BF5ACC600CDA4A4 /* facebookButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAED170D1BF5ACC600CDA4A4 /* facebookButton@2x.png */; settings = {ASSET_TAGS = (); }; };
+		FAED17131BF5ACC600CDA4A4 /* signUpButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAED170E1BF5ACC600CDA4A4 /* signUpButton@2x.png */; settings = {ASSET_TAGS = (); }; };
+		FAED17141BF5ACC600CDA4A4 /* logInButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAED170F1BF5ACC600CDA4A4 /* logInButton@2x.png */; settings = {ASSET_TAGS = (); }; };
+		FAED17151BF5ACC600CDA4A4 /* attachment.png in Resources */ = {isa = PBXBuildFile; fileRef = FAED17101BF5ACC600CDA4A4 /* attachment.png */; settings = {ASSET_TAGS = (); }; };
+		FAED17171BF5B2DF00CDA4A4 /* backBtn@2px.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAED17161BF5B2DF00CDA4A4 /* backBtn@2px.jpeg */; settings = {ASSET_TAGS = (); }; };
+		FAED17201BF5C94E00CDA4A4 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAED171F1BF5C94E00CDA4A4 /* TTTAttributedLabel.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,14 @@
 		FA1D3A431BF4D85800E4A480 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		FA1D3A441BF4D85800E4A480 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		FA1D3A481BF4DC4800E4A480 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		FAED170C1BF5ACC600CDA4A4 /* TopOrangeBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TopOrangeBar@2x.png"; sourceTree = "<group>"; };
+		FAED170D1BF5ACC600CDA4A4 /* facebookButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebookButton@2x.png"; sourceTree = "<group>"; };
+		FAED170E1BF5ACC600CDA4A4 /* signUpButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signUpButton@2x.png"; sourceTree = "<group>"; };
+		FAED170F1BF5ACC600CDA4A4 /* logInButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logInButton@2x.png"; sourceTree = "<group>"; };
+		FAED17101BF5ACC600CDA4A4 /* attachment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attachment.png; sourceTree = "<group>"; };
+		FAED17161BF5B2DF00CDA4A4 /* backBtn@2px.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "backBtn@2px.jpeg"; sourceTree = "<group>"; };
+		FAED171E1BF5C94E00CDA4A4 /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		FAED171F1BF5C94E00CDA4A4 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				FA1D3A061BF4D56100E4A480 /* Sahl */,
+				FAED170A1BF5AB2700CDA4A4 /* Resources */,
 				FA1D3A231BF4D56100E4A480 /* SahlTests */,
 				FA1D3A2E1BF4D56100E4A480 /* SahlUITests */,
 				FA1D3A051BF4D56100E4A480 /* Products */,
@@ -103,15 +119,10 @@
 		FA1D3A061BF4D56100E4A480 /* Sahl */ = {
 			isa = PBXGroup;
 			children = (
-				FA1D3A0A1BF4D56100E4A480 /* AppDelegate.h */,
-				FA1D3A0B1BF4D56100E4A480 /* AppDelegate.m */,
-				FA1D3A161BF4D56100E4A480 /* Assets.xcassets */,
-				FA1D3A1B1BF4D56100E4A480 /* Info.plist */,
-				FA1D3A131BF4D56100E4A480 /* Sahl.xcdatamodeld */,
+				FAED17191BF5BE8F00CDA4A4 /* AppDelegate */,
+				FAED17181BF5BE7200CDA4A4 /* ViewControllers */,
+				FAED171A1BF5BEC000CDA4A4 /* ExternalLibraries */,
 				FA1D3A071BF4D56100E4A480 /* Supporting Files */,
-				FA1D3A421BF4D85800E4A480 /* LoginViewController.h */,
-				FA1D3A431BF4D85800E4A480 /* LoginViewController.m */,
-				FA1D3A441BF4D85800E4A480 /* LoginViewController.xib */,
 			);
 			path = Sahl;
 			sourceTree = "<group>";
@@ -119,6 +130,9 @@
 		FA1D3A071BF4D56100E4A480 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA1D3A161BF4D56100E4A480 /* Assets.xcassets */,
+				FA1D3A1B1BF4D56100E4A480 /* Info.plist */,
+				FA1D3A131BF4D56100E4A480 /* Sahl.xcdatamodeld */,
 				FA1D3A081BF4D56100E4A480 /* main.m */,
 				FA1D3A481BF4DC4800E4A480 /* Launch Screen.storyboard */,
 			);
@@ -141,6 +155,56 @@
 				FA1D3A311BF4D56100E4A480 /* Info.plist */,
 			);
 			path = SahlUITests;
+			sourceTree = "<group>";
+		};
+		FAED170A1BF5AB2700CDA4A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAED170B1BF5AB2F00CDA4A4 /* Images */,
+			);
+			name = Resources;
+			path = Sahl;
+			sourceTree = "<group>";
+		};
+		FAED170B1BF5AB2F00CDA4A4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FAED17161BF5B2DF00CDA4A4 /* backBtn@2px.jpeg */,
+				FAED170C1BF5ACC600CDA4A4 /* TopOrangeBar@2x.png */,
+				FAED170D1BF5ACC600CDA4A4 /* facebookButton@2x.png */,
+				FAED170E1BF5ACC600CDA4A4 /* signUpButton@2x.png */,
+				FAED170F1BF5ACC600CDA4A4 /* logInButton@2x.png */,
+				FAED17101BF5ACC600CDA4A4 /* attachment.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		FAED17181BF5BE7200CDA4A4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D3A421BF4D85800E4A480 /* LoginViewController.h */,
+				FA1D3A431BF4D85800E4A480 /* LoginViewController.m */,
+				FA1D3A441BF4D85800E4A480 /* LoginViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FAED17191BF5BE8F00CDA4A4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D3A0A1BF4D56100E4A480 /* AppDelegate.h */,
+				FA1D3A0B1BF4D56100E4A480 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		FAED171A1BF5BEC000CDA4A4 /* ExternalLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				FAED171E1BF5C94E00CDA4A4 /* TTTAttributedLabel.h */,
+				FAED171F1BF5C94E00CDA4A4 /* TTTAttributedLabel.m */,
+			);
+			name = ExternalLibraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,8 +310,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAED17121BF5ACC600CDA4A4 /* facebookButton@2x.png in Resources */,
+				FAED17131BF5ACC600CDA4A4 /* signUpButton@2x.png in Resources */,
+				FAED17151BF5ACC600CDA4A4 /* attachment.png in Resources */,
 				FA1D3A491BF4DC4800E4A480 /* Launch Screen.storyboard in Resources */,
 				FA1D3A461BF4D85800E4A480 /* LoginViewController.xib in Resources */,
+				FAED17171BF5B2DF00CDA4A4 /* backBtn@2px.jpeg in Resources */,
+				FAED17141BF5ACC600CDA4A4 /* logInButton@2x.png in Resources */,
+				FAED17111BF5ACC600CDA4A4 /* TopOrangeBar@2x.png in Resources */,
 				FA1D3A171BF4D56100E4A480 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +347,7 @@
 				FA1D3A451BF4D85800E4A480 /* LoginViewController.m in Sources */,
 				FA1D3A151BF4D56100E4A480 /* Sahl.xcdatamodeld in Sources */,
 				FA1D3A0C1BF4D56100E4A480 /* AppDelegate.m in Sources */,
+				FAED17201BF5C94E00CDA4A4 /* TTTAttributedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +558,7 @@
 				FA1D3A361BF4D56100E4A480 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA1D3A371BF4D56100E4A480 /* Build configuration list for PBXNativeTarget "SahlTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +567,7 @@
 				FA1D3A391BF4D56100E4A480 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA1D3A3A1BF4D56100E4A480 /* Build configuration list for PBXNativeTarget "SahlUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +576,7 @@
 				FA1D3A3C1BF4D56100E4A480 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -7,15 +7,134 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
             <connections>
+                <outlet property="termsOfUseLabel" destination="Axs-fJ-avo" id="6IG-rt-hbX"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+        <view contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A SAHL account is required to continue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zXp-pI-lGi" userLabel="Label - A SAHL account is required to continue">
+                    <rect key="frame" x="53" y="64" width="269" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="269" id="M23-E8-rhq"/>
+                        <constraint firstAttribute="width" constant="217" id="uqc-Lg-iaW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="uqc-Lg-iaW"/>
+                        </mask>
+                    </variation>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sHx-HK-qwO" userLabel="Button - FBSignIn">
+                    <rect key="frame" x="53" y="90" width="269" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="46" id="0yp-Gv-t4b"/>
+                        <constraint firstAttribute="width" constant="217" id="v6k-Px-8KJ"/>
+                        <constraint firstAttribute="width" constant="269" id="xVK-RI-SwE"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="facebookButton.png"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="v6k-Px-8KJ"/>
+                        </mask>
+                    </variation>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iqn-ep-bxI" userLabel="Button - GplusSignIn">
+                    <rect key="frame" x="53" y="148" width="269" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="46" id="UjR-gc-aUh"/>
+                        <constraint firstAttribute="width" constant="269" id="eAP-kl-I7r"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="attachment.png"/>
+                </button>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Axs-fJ-avo" userLabel="Terms Of Use Label" customClass="TTTAttributedLabel">
+                    <rect key="frame" x="97" y="241" width="182" height="83"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" link="YES" staticText="YES"/>
+                    </accessibility>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="182" id="hCl-Z4-DYQ"/>
+                        <constraint firstAttribute="height" constant="83" id="jkP-ib-ja1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                    <color key="textColor" red="0.60951967592592593" green="0.60951967592592593" blue="0.60951967592592593" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="hlc-GH-BVN"/>
+                    </connections>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fM2-eE-keJ" userLabel="View - login-signup">
+                    <rect key="frame" x="0.0" y="557" width="375" height="75"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tbv-rF-em6" userLabel="Button - login">
+                            <rect key="frame" x="20" y="15" width="160" height="48"/>
+                            <state key="normal" image="logInButton.png"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wyn-UN-3WQ" userLabel="Button - signup">
+                            <rect key="frame" x="195" y="15" width="160" height="48"/>
+                            <state key="normal" image="signUpButton.png"/>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="375" id="MfW-yL-Nv0"/>
+                        <constraint firstAttribute="height" constant="75" id="cgT-Th-o0H"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Want to use email instead?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5X-4r-MwL">
+                    <rect key="frame" x="108" y="535" width="159" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="ckQ-bk-y3I"/>
+                        <constraint firstAttribute="width" constant="159" id="dRc-lA-s4Y"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.92941176470588238" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="sHx-HK-qwO" firstAttribute="top" secondItem="zXp-pI-lGi" secondAttribute="bottom" constant="12" id="5dl-xm-C1C"/>
+                <constraint firstItem="Iqn-ep-bxI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6sn-m2-6YH"/>
+                <constraint firstItem="sHx-HK-qwO" firstAttribute="width" secondItem="zXp-pI-lGi" secondAttribute="width" id="C8q-FN-TdY"/>
+                <constraint firstAttribute="bottom" secondItem="fM2-eE-keJ" secondAttribute="bottom" constant="35" id="CpC-Y7-vVa"/>
+                <constraint firstItem="sHx-HK-qwO" firstAttribute="top" secondItem="zXp-pI-lGi" secondAttribute="bottom" constant="12" id="H4q-Gz-YGo"/>
+                <constraint firstItem="zXp-pI-lGi" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="NNc-dm-QhL"/>
+                <constraint firstItem="sHx-HK-qwO" firstAttribute="leading" secondItem="zXp-pI-lGi" secondAttribute="trailing" constant="-217" id="NSl-o3-0hV"/>
+                <constraint firstItem="fM2-eE-keJ" firstAttribute="top" secondItem="z5X-4r-MwL" secondAttribute="bottom" constant="1" id="OuI-lM-JUW"/>
+                <constraint firstItem="z5X-4r-MwL" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Y1C-Nt-XLg"/>
+                <constraint firstItem="zXp-pI-lGi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="51" id="aaZ-3z-1td"/>
+                <constraint firstItem="Axs-fJ-avo" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="dk3-cg-cZl"/>
+                <constraint firstItem="zXp-pI-lGi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="fKH-0J-Nnh"/>
+                <constraint firstAttribute="trailing" secondItem="zXp-pI-lGi" secondAttribute="trailing" constant="52" id="jIR-iz-ign"/>
+                <constraint firstItem="fM2-eE-keJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jKR-ub-GvS"/>
+                <constraint firstItem="zXp-pI-lGi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="u2l-3T-6ev"/>
+                <constraint firstItem="Axs-fJ-avo" firstAttribute="top" secondItem="Iqn-ep-bxI" secondAttribute="bottom" constant="47" id="vMs-hC-Rnv"/>
+                <constraint firstItem="Iqn-ep-bxI" firstAttribute="top" secondItem="sHx-HK-qwO" secondAttribute="bottom" constant="12" id="xr7-Qh-4Dj"/>
+                <constraint firstItem="sHx-HK-qwO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xrG-xd-e17"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="aaZ-3z-1td"/>
+                    <exclude reference="fKH-0J-Nnh"/>
+                    <exclude reference="jIR-iz-ign"/>
+                    <exclude reference="C8q-FN-TdY"/>
+                    <exclude reference="H4q-Gz-YGo"/>
+                    <exclude reference="NSl-o3-0hV"/>
+                </mask>
+            </variation>
         </view>
     </objects>
+    <resources>
+        <image name="attachment.png" width="805" height="140"/>
+        <image name="facebookButton.png" width="404" height="69"/>
+        <image name="logInButton.png" width="239" height="73"/>
+        <image name="signUpButton.png" width="239" height="73"/>
+    </resources>
 </document>
