@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8E3D2C54-3B38-438C-8913-7D2FBD382B3C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Sahl</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3C56D416504AA0E956840E4E3E5A985D8B9557E0</key>
+		<string>github.com:humam-nameer-10p/SAHL.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Sahl/Sahl.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3C56D416504AA0E956840E4E3E5A985D8B9557E0</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:humam-nameer-10p/SAHL.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3C56D416504AA0E956840E4E3E5A985D8B9557E0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3C56D416504AA0E956840E4E3E5A985D8B9557E0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SAHL</string>
+		</dict>
+	</array>
+</dict>
+</plist>

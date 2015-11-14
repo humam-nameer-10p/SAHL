@@ -6,6 +6,7 @@
 //  Copyright © 2015 Humam Nameer. All rights reserved.
 //
 #import "LoginViewController.h"
+#import "FindSAHLViewController.h"
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -19,7 +20,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self.window makeKeyAndVisible];
-    UINavigationController * nav = [[UINavigationController  alloc] initWithRootViewController:[LoginViewController new]];
+    UINavigationController * nav = [[UINavigationController  alloc] initWithRootViewController:[FindSAHLViewController new]];
     [self.window setRootViewController:nav];
     
     // Override point for customization after application launch.
